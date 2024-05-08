@@ -4,6 +4,7 @@ import logoImage from './assets/logo.png'
 import rightImage from './assets/right.png'
 import leftImage from './assets/left.png'
 import downarrowImage from './assets/downarrow.png'
+import homeImage from './assets/Vector.png'
 import './App.css'
 
 const App = () => {
@@ -25,7 +26,7 @@ const App = () => {
 
       </header>
       <div className='mt-10 ml-14 flex'>
-      <img src="/src/assets/vector.png" alt="" className='w-[25px]' />
+      <img src={homeImage} alt="" className='w-[25px]' />
       <span className='hover:cursor-pointer text-xl ml-2 mr-2 font-bold text-[#06286E]'>{sym}</span>
       <span className='hover:cursor-pointer text-[#696671]'>Flashcard</span>
       <span className='hover:cursor-pointer text-xl ml-2 mr-2 font-bold text-[#06286E]'>{sym}</span>
