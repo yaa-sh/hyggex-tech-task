@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    font-family: 'Inter', Courier, monospace;
+
+}
+
+.gradient-border {
+  border-image: linear-gradient(to left,#082299, #217EEC) 1 / 2px stretch;
+}
