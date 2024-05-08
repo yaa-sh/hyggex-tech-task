@@ -1,4 +1,9 @@
 import React from 'react'
+import landingImage from './assets/main.png'
+import logoImage from './assets/logo.png'
+import rightImage from './assets/right.png'
+import leftImage from './assets/left.png'
+import downarrowImage from './assets/downarrow.png'
 import './App.css'
 
 const App = () => {
@@ -7,7 +12,7 @@ const App = () => {
     <div className='overflow-x-hidden'>
       <header className='flex gap-[40vw] p-4 min-w-[100vw] w-[100vw]'>
         <div className=''>
-          <img src="/src/assets/logo.png" className='w-[200px] ml-10' alt="" />
+          <img src={logoImage} className='w-[200px] ml-10' alt="" />
         </div>
         <div className='flex '>
               <span className='m-2 p-2 font-int text-[#3A3740] hover:cursor-pointer'>Home</span>
@@ -38,12 +43,12 @@ const App = () => {
             <span className='hover:cursor-pointer text-[#3A3740]  m-2 p-2'>Game</span>
             <span className='hover:cursor-pointer text-[#3A3740]  m-2 p-2'>Others</span>
           </div>
-          <img src="/src/assets/main.png" className='w-[40%] lg:ml-[30%] md:ml-[27%]' alt="" />
+          <img src={landingImage} className='w-[40%] lg:ml-[30%] md:ml-[27%]' alt="" />
         </div>
       </main>
       <div className='flex justify-between m-4 lg:mr-40 lg:ml-40 md:mr-40 md:ml-40'>
-        <img src="/src/assets/right.png" className='w-[180px]' alt="" />
-        <img src="/src/assets/left.png" className='w-[200px] object-contain' alt="" />
+        <img src={rightImage} className='w-[180px]' alt="" />
+        <img src={leftImage} className='w-[200px] object-contain' alt="" />
 
       </div>
       <footer className='mt-20 lg:ml-20 md:ml-5'>
@@ -51,15 +56,15 @@ const App = () => {
         <div className='flex flex-col p-2 m-2'>
           <div className='border-2 border-[#217EEC] rounded-xl m-2 p-4 lg:w-[60%] md:w-[60%] flex justify-between'>
             <span>Can education flashcards be used for all age groups?</span>
-            <img src="/src/assets/downarrow.png" alt="" className='hover:cursor-pointer h-[10px]' />
+            <img src={downarrowImage} alt="" className='hover:cursor-pointer h-[10px]' />
           </div>
           <div className='border-2 border-[#217EEC] rounded-xl m-2 p-4 lg:w-[60%] md:w-[60%] flex justify-between'>
             <span>How do education flashcards work?</span>
-            <img src="/src/assets/downarrow.png" alt="" className='hover:cursor-pointer h-[10px]' />
+            <img src={downarrowImage} alt="" className='hover:cursor-pointer h-[10px]' />
           </div>
           <div className='border-2 border-[#217EEC] rounded-xl m-2 p-4 lg:w-[60%] md:w-[60%] flex justify-between'>
             <span>Can education flashcards be used for test preparation?</span>
-            <img src="/src/assets/downarrow.png" alt="" className='hover:cursor-pointer h-[10px]' />
+            <img src={downarrowImage} alt="" className='hover:cursor-pointer h-[10px]' />
           </div>
         </div>
 
